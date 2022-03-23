@@ -1,0 +1,37 @@
+.card_entry{
+    width:100%;
+    overflow:hidden;
+    overflow-y: auto;
+    padding:20px;
+    height: auto;
+}
+
+.Main-content{
+    width:100%;
+    display:flex;
+    flex-wrap: wrap;
+    height: 40%;
+
+}
+
+
+
+.movie_cards{
+    width: 20%;
+    /* background-color: black; */
+    color: white;
+    /* height: 250px; */
+    margin-top: 10px;
+    margin-left: 10px;
+    text-align: center;
+    cursor: pointer;
+    height: 300px;
+    border-radius: 6px;
+    overflow: hidden;
+}
+
+.movie_cards .img{
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+}
